@@ -85,7 +85,7 @@ body.light .logo-area {
     color: #929a9e;
     font-family: sans-serif;
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
@@ -99,14 +99,14 @@ body.light .date-time-info {
 
 
 .shdr {
-    font-size: 10px;
+    font-size: 9px;
     opacity: 0.65;
     text-align: left;
     font-weight: 400;
 }
 
 .sshdr {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
 
@@ -318,21 +318,147 @@ body.light .checkboxbg {
     width: 200px;
 }
 
-.mplayers{
+.mplayers {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 10px;
 }
 
-.MDAY{
+.MDAY {
     background-color: #18212b;
     color: white;
     text-align: center;
 }
-body.light .MDAY td{
+
+body.light .MDAY td {
     color: White;
 }
-.finals td{
+
+.finals td {
     padding: 0 10px;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .top-bar {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .logo-area {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .logo-area img {
+        width: 70px;
+    }
+
+    .date-time-info {
+        width: 40%;
+        padding: 0 5px;
+    }
+
+    .shdr {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .sshdr {
+        font-size: 9px;
+    }
+
+    .groupmsgtitle {
+        font-size: 12px;
+    }
+
+    .left table {
+        width: 350px;
+        height: 180px;
+    }
+
+    .groupA-B th {
+        font-size: 12px;
+    }
+
+    .groupA-B td {
+        font-size: 14px;
+    }
+
+    .Groupsdrama {
+        height: 45%;
+        margin-bottom: 25px;
+    }
+
+    .right table {
+        font-size: 12px;
+        font-weight: 500;
+        height: 800px;
+        width: 150px;
+    }
+
+    body .main {
+        width: 90%;
+        height: 100vh;
+    }
+}
+
+@media all and (min-width:360px) and (max-width:750px) {
+
+    body .main {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 100vh;
+    }
+
+    .main-top {
+        padding: 10px;
+    }
+
+    .logo-area {
+        font-size: 18px;
+    }
+
+    .logo-area img {
+        width: 50px;
+    }
+
+    .date-time-info {
+        width: 50%;
+        padding: 0 2px;
+    }
+
+    .shdr {
+        font-size: 7px;
+    }
+
+    .sshdr {
+        font-size: 8px;
+    }
+
+    .groupmsgtitle {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+    .left table {
+        width: 250px;
+        height: 120px;
+    }
+
+    .Groupsdrama {
+        height: 320px;
+    }
+
+    .right table {
+        font-size: 9px;
+        font-weight: 400;
+        height: 600px;
+        width: 100px;
+    }
+
+
 }
