@@ -33,7 +33,7 @@
 
                     <div class="date lhdr">
                         <h4 class="date-header shdr">Date</h4>
-                        <h2 class="date-info sshdr">Nov 12th - Nov 22nd 2022</h2>
+                        <h2 class="date-info sshdr">Nov12th - Nov22nd2022</h2>
                     </div>
 
                     <div class="players lhdr">
@@ -43,7 +43,7 @@
 
                     <div class="location lhdr">
                         <h4 class="location-header shdr">Location</h4>
-                        <h2 class="location-info sshdr">Online (Lichess.org)</h2>
+                        <h2 class="location-info sshdr">Online Lichess</h2>
                     </div>
                 </div>
             </div>
@@ -172,6 +172,22 @@
                 </div>
 
             </div>
+
+            <div class="sidebar_light-dark_profile">
+                <div class="checkboxbg">
+                    <div class="sidebar_light-dark_text">
+                        <span class="ld-txt">Burn/Unburn Thy Eyes</span>
+                    </div>
+                    <div class="sidebar_light-dark_switch">
+                        <input type="checkbox" class="checkbox" id="checkbox" autocomplete="off" />
+                        <label for="checkbox" class="label">
+                            <i class='bx bxs-sun'></i>
+                            <i class='bx bxs-moon'></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="right">
@@ -280,21 +296,7 @@
             </table>
 
 
-            <div class="sidebar_light-dark_profile">
-                <div class="checkboxbg">
-                    <div class="sidebar_light-dark_text">
-                        <span class="ld-txt">Burn/Unburn Thy Eyes</span>
-                    </div>
-                    <div class="sidebar_light-dark_switch">
-                        <input type="checkbox" class="checkbox" id="checkbox" autocomplete="off" />
-                        <label for="checkbox" class="label">
-                            <i class='bx bxs-sun'></i>
-                            <i class='bx bxs-moon'></i>
-                            <div class="ball"></div>
-                        </label>
-                    </div>
-                </div>
-            </div>
+
         </section>
 
 
@@ -311,12 +313,13 @@
 
 
     <script>
-    const checkbox = document.getElementById('checkbox');
-checkbox.addEventListener('change', () => {
-    document.body.classList.toggle('light');
-});
+        const checkbox = document.getElementById('checkbox');
+        checkbox.addEventListener('change', () => {
+            document.body.classList.toggle('light');
+        });
 
-</script>
+
+    </script>
 </body>
 
 </html>
